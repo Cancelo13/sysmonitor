@@ -28,14 +28,6 @@ A lightweight desktop application to monitor system resources (CPU, RAM, GPU) an
 - **Threading:** `std::thread`, `std::mutex`
 - **Memory Management:** RAII, stack allocation, `std::unique_ptr`
 
-## Development Guidelines
-
-- **No dynamic memory allocations in hot loops**
-- **Separate core logic from UI**
-- **Polling interval:** 1 second recommended
-- **Handle Windows errors gracefully**
-- **RAII for all HANDLEs**
-
 ## Collaboration
 
 I am open to collaborating! If you’re interested in contributing to this project, feel free to reach out or open a pull request. Contributions to features, performance improvements, or UI enhancements are welcome.
